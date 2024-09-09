@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DC33_Cnet_Badge")(type "KiCad")(uri "${KIPRJMOD}/DC33_Cnet_Badge.kicad_sym")(options "")(descr ""))
+)
