@@ -250,6 +250,17 @@
 			(pintype "input")
 			(uuid "77103099-7448-4d35-9154-5f857c6d12ed")
 		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/Vibra1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "DC33_Cnet_Badge_Main:DC33_Cnet_Badge_SAO_Socket"
 		(layer "F.Cu")
@@ -743,6 +754,17 @@
 			(pintype "input")
 			(uuid "5a4cdbbd-6579-4c0c-a594-b06e87455f69")
 		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/Buzz1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "DC33_Cnet_Badge_Main:DC33_Cnet_Badge_HiLetgo_GPS_Ant"
 		(layer "F.Cu")
@@ -834,6 +856,17 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+			)
+		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/HiLetGo_GPS_Antenna.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -1468,6 +1501,17 @@
 			(pintype "power_in")
 			(uuid "cbfddff1-d667-47c7-b5f7-08d6d50d7175")
 		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/Heltec V3 LoRa/heltec-wifi-lora-32-shield-1.snapshot.2/heltec_wifi_32_asm2.STEP"
+			(offset
+				(xyz 0 2.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -90)
+			)
+		)
 	)
 	(footprint "DC33_Cnet_Badge_Main:DC33_Cnet_Badge_HiLetgo_GPS"
 		(layer "F.Cu")
@@ -1608,6 +1652,17 @@
 			(pintype "power_in")
 			(uuid "e2d7a6ba-5d1a-4300-afd8-b539c2ae18a6")
 		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/HiLetGo_GPS_Module.step"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "DC33_Cnet_Badge_Main:DC33_Cnet_Badge_LiPo"
 		(layer "B.Cu")
@@ -1705,6 +1760,115 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/LiPo.step"
+			(offset
+				(xyz 0 0 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+	)
+	(footprint "DC33_Cnet_Badge_Main:DC33_Cnet_Badge_LoRa_Antenna"
+		(layer "B.Cu")
+		(uuid "fa338794-685a-4733-a289-3e44376b60ab")
+		(at 192.5 56 180)
+		(property "Reference" "REF**"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "83da60d8-30e3-44ff-8bf4-325c7b2b6eeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "DC33_Cnet_Badge_LoRa_Antenna"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "bcbad03b-3579-4a9b-8f14-460daf483efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "DC33_Cnet_Badge_Main:DC33_Cnet_Badge_LoRa_Antenna"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88657876-db94-4b53-9e57-c4f14825562d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7850845b-609c-4797-b1fa-c583f11a9402")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8410dc49-8de3-403d-9b94-3e24f1b4fb65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "5d2435d6-b0d9-430c-adf5-708d95de2740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(model "C:/Users/jgranat/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/LoRa_Antenna.step"
+			(offset
+				(xyz 28 -6 6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)

@@ -469,7 +469,7 @@
       "plot": "Output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DC33_Cnet_Badge_Main.step",
       "svg": "",
       "vrml": ""
     },
