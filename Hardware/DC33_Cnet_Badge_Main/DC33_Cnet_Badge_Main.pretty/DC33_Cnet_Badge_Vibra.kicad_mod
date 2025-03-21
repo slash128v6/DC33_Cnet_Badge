@@ -1,7 +1,7 @@
 (footprint "DC33_Cnet_Badge_Vibra"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 7.62 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5a974cc2-c4a3-40c3-9229-750b63d1440d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1c26eaa2-4845-498f-a506-0636ad4fc1aa")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ffb98803-ce87-407d-8a4f-0db0b2e38ae4")
 	)
@@ -118,5 +105,17 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a8c64e57-38d0-4bbb-b556-2e8874ae6cc0")
+	)
+	(embedded_fonts no)
+	(model "D:/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/Vibra1.step"
+		(offset
+			(xyz 1.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
 	)
 )

@@ -1,7 +1,7 @@
 (footprint "DC33_Cnet_Badge_Heltec_V3_LoRa"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 25.4 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5a974cc2-c4a3-40c3-9229-750b63d1440d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1c26eaa2-4845-498f-a506-0636ad4fc1aa")
 		(effects
 			(font
 				(size 1 1)
@@ -219,7 +206,7 @@
 	)
 	(fp_line
 		(start -7.5 19.05)
-		(end -3.6 19.05)
+		(end -4.5 19.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -228,8 +215,8 @@
 		(uuid "6866ecf0-3c6f-4919-ace9-bb0f3d4ba296")
 	)
 	(fp_line
-		(start -3.6 19.05)
-		(end -3.6 22.86)
+		(start -4.5 19.05)
+		(end -4.5 22.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -238,8 +225,8 @@
 		(uuid "609b6120-5b11-43de-b436-0aaad49b8afb")
 	)
 	(fp_line
-		(start -3.6 22.86)
-		(end 3.6 22.86)
+		(start -4.5 22.5)
+		(end 4.5 22.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -248,7 +235,7 @@
 		(uuid "2176b10a-b400-4f2f-ba6e-943bc9f3d020")
 	)
 	(fp_line
-		(start 3.6 19.05)
+		(start 4.5 19.05)
 		(end 7.5 19.05)
 		(stroke
 			(width 0.05)
@@ -258,8 +245,8 @@
 		(uuid "72cf0f69-78ac-4165-bc6b-206cfc438dc8")
 	)
 	(fp_line
-		(start 3.6 22.86)
-		(end 3.6 19.05)
+		(start 4.5 22.5)
+		(end 4.5 19.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -586,5 +573,17 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8c8723c0-bbbd-45c3-8978-17b7cf6c03be")
+	)
+	(embedded_fonts no)
+	(model "D:/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/Heltec V3 LoRa/heltec-wifi-lora-32-shield-1.snapshot.2/heltec_wifi_32_asm2.STEP"
+		(offset
+			(xyz 0 2 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
 	)
 )

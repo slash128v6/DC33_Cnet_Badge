@@ -1,7 +1,7 @@
 (footprint "DC33_Cnet_Badge_HiLetgo_GPS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5a974cc2-c4a3-40c3-9229-750b63d1440d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1c26eaa2-4845-498f-a506-0636ad4fc1aa")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "83fca349-28b3-4420-8687-b9a0390b5030")
 	)
@@ -121,5 +108,17 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f27f0fc4-bad4-4d29-8629-755d8f304e00")
+	)
+	(embedded_fonts no)
+	(model "D:/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/HiLetGo_GPS_Module.step"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )

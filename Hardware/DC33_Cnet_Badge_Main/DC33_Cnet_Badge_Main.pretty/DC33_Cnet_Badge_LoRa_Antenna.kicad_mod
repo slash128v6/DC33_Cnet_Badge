@@ -1,7 +1,7 @@
 (footprint "DC33_Cnet_Badge_LoRa_Antenna"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "61c32716-c1d1-445e-b676-022d7cbadc52")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fb816c6a-9eec-4fdc-a36c-4e22424f788f")
 		(effects
 			(font
 				(size 1 1)
@@ -77,6 +64,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(embedded_fonts no)
+	(model "D:/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/LoRa_Antenna.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )

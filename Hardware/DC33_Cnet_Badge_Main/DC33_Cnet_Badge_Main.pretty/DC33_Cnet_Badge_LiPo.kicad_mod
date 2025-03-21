@@ -1,7 +1,7 @@
 (footprint "DC33_Cnet_Badge_LiPo"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "LiPo"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ac183e78-e47e-4b50-9c09-4377e4714136")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ae76eae4-f4a6-4620-9528-12af8e846f5e")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "395665a9-a9b1-4db8-9c8b-8e239e3da02f")
 	)
@@ -88,6 +75,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(embedded_fonts no)
+	(model "D:/My Drive/Dev/Arduino/DC33_Cnet_Badge/Hardware/3D Models/LiPo.step"
+		(offset
+			(xyz 0 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
 		)
 	)
 )
