@@ -1314,7 +1314,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DC33_Cnet_Badge:PB_Switch"
+		(symbol "DC33_Cnet_Badge:Tactile_Switch"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1330,7 +1330,7 @@
 					)
 				)
 			)
-			(property "Value" "PB_Switch"
+			(property "Value" "Tactile_Switch"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1338,7 +1338,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DC33_Cnet_Badge_Main:PB_Switch"
+			(property "Footprint" "DC33_Cnet_Badge_Main:Tactile_Switch-13mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1374,7 +1374,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PB_Switch_0_0"
+			(symbol "Tactile_Switch_0_0"
 				(circle
 					(center -2.032 2.54)
 					(radius 0.508)
@@ -1492,7 +1492,7 @@
 					)
 				)
 			)
-			(symbol "PB_Switch_1_1"
+			(symbol "Tactile_Switch_1_1"
 				(rectangle
 					(start -3.175 4.445)
 					(end 3.175 -3.81)
@@ -2647,80 +2647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DC33_Cnet_Badge:PB_Switch")
-		(at 218.44 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41a34ea2-391f-416c-a92c-ae4f7c3efd01")
-		(property "Reference" "SW1"
-			(at 218.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PB_Switch"
-			(at 218.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DC33_Cnet_Badge_Main:PB_Switch"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "edd59cb3-dc61-4b8d-af01-a6c50ccba300")
-		)
-		(pin "4"
-			(uuid "5dab0085-0b43-4648-8703-d0ba9c728235")
-		)
-		(pin "2"
-			(uuid "cd1006d3-4117-4d5f-9ae1-15e5a09b1109")
-		)
-		(pin "1"
-			(uuid "96910c12-e1cd-4dda-a4e6-936c3edfc3a8")
-		)
-		(instances
-			(project ""
-				(path "/6a76a406-a894-4b14-8475-9d3472a38965"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DC33_Cnet_Badge:DC33_Cnet_Badge_Buzzer")
 		(at 77.47 85.09 0)
 		(unit 1)
@@ -3152,6 +3078,80 @@
 			(project ""
 				(path "/6a76a406-a894-4b14-8475-9d3472a38965"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DC33_Cnet_Badge:Tactile_Switch")
+		(at 218.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf6aec39-7b4b-4caf-890a-d8a881ac6e86")
+		(property "Reference" "SW1"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Tactile_Switch"
+			(at 218.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DC33_Cnet_Badge_Main:Tactile_Switch-13mm"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdac79d7-4624-4cc0-99be-11fab84e2924")
+		)
+		(pin "3"
+			(uuid "c5aec907-f815-4010-8c16-6e2c3308cd33")
+		)
+		(pin "4"
+			(uuid "cb87eaf6-1f06-4158-bfd4-a9bbd0dcc17a")
+		)
+		(pin "2"
+			(uuid "2391d48d-1028-4db6-bdd4-98edf49214dc")
+		)
+		(instances
+			(project ""
+				(path "/6a76a406-a894-4b14-8475-9d3472a38965"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-24759935404481660
+24761687630109350
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55321,12 +55321,19 @@ DC33_Logo
 0
 0
 DC33_Cnet_Badge_Main
-PB_Switch
+Tactile_Switch-13mm
 C&K Components SPST SMD PTS645 Series 6mm Tact Switch
 SPST Button Switch
 0
 4
 2
+DC33_Cnet_Badge_Main
+Untitled
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
