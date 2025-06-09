@@ -1,2 +1,2 @@
-# DC33_Cnet_Badge
+# DC33 CompuNet Badge
  
