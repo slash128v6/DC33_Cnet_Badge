@@ -4,6 +4,7 @@ config:
     buzzerGpio: 46
   display:
     autoScreenCarouselSecs: 15
+    screenOnSecs: 31536000
   lora:
     region: US
   position:
