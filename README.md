@@ -12,7 +12,7 @@ Meshtastic devices use **LoRa (Long Range)** radio technology to send small da
 
 # Section 1: Hardware Assembly
 
-### 1)	Verify inventory:
+1.	Verify inventory:
 
 | Qty	| Description |
 |------|-------------|
@@ -31,19 +31,19 @@ Meshtastic devices use **LoRa (Long Range)** radio technology to send small da
 |1	|Case Clip|
 
 
-### 2)	Solder the vibration motor. You can trim the wires but be very careful when stripping the ends, as the wire is very small gauge and easy to cut when stripping. Peel off the white tab and stick to the PCB. 
+2.	Solder the vibration motor. You can trim the wires but be very careful when stripping the ends, as the wire is very small gauge and easy to cut when stripping. Peel off the white tab and stick to the PCB. 
 
 ![](Images/Picture1.jpg)
 
 ![](Images/Picture2.jpg)
 
-3)	Solder the 6 pin SAO header with the tab aligned with the white silkscreen outline. Try to keep it as square as possible so SAOs are not crooked when installed. 
+3.	Solder the 6 pin SAO header with the tab aligned with the white silkscreen outline. Try to keep it as square as possible so SAOs are not crooked when installed. 
 
 ![](Images/Picture3.jpg)
 
 ![](Images/Picture4.jpg)
 
-4)	Solder the piezo buzzer noting the polarity. Remove the protective white sticker.
+4.	Solder the piezo buzzer noting the polarity. Remove the protective white sticker.
 
 ![](Images/Picture5.jpg)
 
