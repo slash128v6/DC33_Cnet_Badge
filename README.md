@@ -197,3 +197,32 @@ Slide the clip into the opening on the back until it clicks into place.
 ![](Images/Picture46.png)
 
 5.	At this point you should have basic functionality. Feel free to explore the docs at [https://meshtastic.org/docs/introduction/](https://github.com/slash128v6/DC33_Cnet_Badge). Settings can be managed in the app as well, vs connecting to a PC and using the web interface at [https://client.meshtastic.org/](https://github.com/slash128v6/DC33_Cnet_Badge), though the web interface has more functionality. There is also a Python cli interface that allows bulk configuration changes and backup & restore. This is also covered on the Meshtastic website. A YAML config file with the basic settings applied in this doc is included in the “Software/configs” directory of the repo.
+
+```
+# start of Meshtastic configure yaml
+config:
+  device:
+    buzzerGpio: 46
+  display:
+    autoScreenCarouselSecs: 15
+    screenOnSecs: 31536000
+  lora:
+    region: US
+  position:
+    gpsMode: ENABLED
+    rxGpio: 48
+    txGpio: 47
+module_config:
+  externalNotification:
+    active: true
+    alertBell: true
+    alertBellBuzzer: true
+    alertBellVibra: true
+    alertMessage: true
+    alertMessageBuzzer: true
+    alertMessageVibra: true
+    enabled: true
+    outputBuzzer: 46
+    outputVibra: 45
+    usePwm: true
+```
