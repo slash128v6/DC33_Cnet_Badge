@@ -7,8 +7,10 @@ Meshtastic devices use **LoRa (Long Range)** radio technology to send small da
 [https://github.com/slash128v6/DC33_Cnet_Badge](https://github.com/slash128v6/DC33_Cnet_Badge)
 
 [https://meshtastic.org](https://github.com/slash128v6/DC33_Cnet_Badge)
+
+> [!NOTE]
  
-**WARNING – DO NOT POWER THE HELTEC V3 LoRa UNIT WITHOUT THE ANTENNA ATTACHED! DAMAGE MAY RESULT**
+> **WARNING – DO NOT POWER THE HELTEC V3 LoRa UNIT WITHOUT THE ANTENNA ATTACHED! DAMAGE > MAY RESULT**
 
 # Section 1: Hardware Assembly
 
